@@ -3,7 +3,6 @@
 This repo contains the code and dataset of the study done for the thesis titled Physics-Informed Neural Network-based Option Pricing. Our goal is to solve the Partial Differential Equations BS, CEV, Heston and SABR models for both European and American style call options using the Physics-Informed Neural Network structure developed by Raissi (https://github.com/maziarraissi/PINNs).
 # Datasets
 The Dataset folder contains the datasets used in the project. The datasets and their descriptions are as follows:
-  - raw_real_dataset: The raw version of the options data which is available free of charge on the (https://optiondata.org/) website. This dataset covers the period from 1/2013 to 6/2013.
   - american_options: Dataset used for American-style option study
   - european_options: Dataset used for European-style option study
   - option_price_comparison_random: Random dataset used to compare option models. Generated with the torch random library.
